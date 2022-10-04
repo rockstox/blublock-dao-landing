@@ -26,7 +26,7 @@ const Business = () =>  (
         the rest.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Using an innovative new DAO configuration, BluBlock is offering its community the opportunity to buy into the royalties and perks generated from the world's top media IP.
+      Fans, consumers, artists, and managers collaborate to unlock and share the vast commercial values generated from top media IPs.
       </p>
 
       <Button styles={`mt-10`} />

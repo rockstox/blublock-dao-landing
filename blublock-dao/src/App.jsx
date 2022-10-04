@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Stats from './components/Stats';
 import Business from './components/Business';
 import Team from './components/Team';
+import HowItWorks from './components/HowItWorks'
 import Footer from './components/Footer';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <div className={`${styles.boxWidth}`}>
           <Team />
           <Business />
+          <HowItWorks />
           <Footer />  
         </div>
       </div>

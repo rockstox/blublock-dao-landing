@@ -11,23 +11,21 @@ const Hero = () => {
           <img src={arrowUp} alt="heads up" className="w-[24px] h-[24px]" />
           <p className="text-[14px] text-orange-200 ml-2">
           {" "}
-            <span className="text-white mr-1">Largest NFT Licensing Deal Ever Done</span>
-            {" "}Announcing Soon {" "}
+            <span className="text-white mr-1">BluBlock secures single largest NFT licensing deal with involving 60 Bored Apes and a public company</span>
+            {" "}Official Announcement Soon {" "}
           </p>
         </div>
 
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold text-[72px] text-white">
-            <span className="text-gradient">Your Favorite IP</span> {" "}
+        <div className="w-full text-center sm:text-left my-5">
+          <h1 className="flex-1 font-poppins font-semibold text-[38px] sm:text-[48px] lg:text-[68px] text-white">
+            <span className="text-gradient">Your favorite IP</span> {" "}
           </h1>
+          <h1 className="font-poppins font-semibold text-[32px] lg:text-[48px] text-white w-full mb-10">
+          in the palm of your hand
+          </h1>
+          <Button styles="block w-[180px] mx-auto sm:mx-0 mt-5 mb-10" />
+          <p className={`${styles.paragraph} text-sm sm:text-md max-w-[470px] mt-5 mx-auto sm:mx-0`}>Using an innovative new DAO configuration, BluBlock is offering its community the opportunity to buy into the royalties and perks generated from the world's top media IP.</p>
         </div>
-
-        <h1 className="font-poppins font-semibold text-[42px] text-white w-full">
-        In the Palm of Your Hand
-        </h1>
-        <Button styles="mt-5 mb-5" />
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Using an innovative new DAO configuration, BluBlock is offering its community the opportunity to buy into the royalties and perks generated from the world's top media IP.</p>
-
       </div>
 
       <div className="relative">

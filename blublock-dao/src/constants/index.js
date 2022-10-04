@@ -1,4 +1,4 @@
-import { team01, team02, team03, team04, team05, team06, team07, team08, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { team01, team02, team03, team04, team05, team06, team07, team08, map, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, menu  } from "../assets";
 
 export const navLinks = [
   {
@@ -25,77 +25,83 @@ export const features = [
     icon: star,
     title: "A-List Intellectual Property",
     content:
-      "Our team sources the best intellectual property deal flow in the world. We source only bluechip web3 and legacy IP estates.",
+      "The best licensing managers in the biz bring deal flows from blue chip NFTs and legacy IP estates to the most relevant fan community in the world.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% SEC Compliant",
+    title: "100% Legal and Compliant",
     content:
-      "We take proactive steps make sure your information and transactions are secure and fully SEC compliant.",
+      "BluBlock adopts the most stringent mechanism in Web3 to make sure all transactions are done in the fully compliant fashion.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Tokenized Dealflow",
+    title: "Tokenization & DeFi",
+    content: "IP deal flows are securitized, tokenized, and distributed to qualified participants, who can further tap the liquidity offered by the ubiquitous DeFi facilities.",
+  },
+  {
+    id: "feature-4",
+    icon: map,
+    title: "Well-defined Governance Economy",
     content:
-      "Deal flow is securitized and tokenized so qualified participants can trade and stake their portion of dealflow",
+      "A transparent, fair, and sustainable DAO framework that drives a genuine governance economy encouraging contributions and collaborations.",
   },
 ];
 
 export const team = [
   {
     id: "team-1",
-    content:
-      "Money is cool, but have you ever created value?",
     name: "Hunter Davis",
     title: "Founder | Technology",
+    twitter_url: "https://twitter.com/Rockstox",
+    linkedin_url: "https://www.linkedin.com/in/hunter-davis-8931a142/",
     img: team01,
   },
   {
     id: "team-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Ashwant Akula",
+    twitter_url: "",
+    linkedin_url: "https://www.linkedin.com/in/ashwant-venkatram-410031126/",
+    name: "Ashwant Akula esq.",
     title: "Founder | Legal & Biz Dev",
     img: team02,
   },
   {
     id: "team-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+    twitter_url: "",
+    linkedin_url: "https://www.linkedin.com/in/delon-de-metz-12295b8b/",
     name: "Delon De Metz",
     title: "Founder | Biz Dev",
     img: team03,
   },
   {
     id: "team-4",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenneth Browning",
+    twitter_url: "",
+    linkedin_url: "https://www.linkedin.com/in/kenneth-browning-2b2a869/",
+    name: "Kenneth Browning esq.",
     title: "Legal",
     img: team04,
   },
   {
     id: "team-5",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+    twitter_url: "",
+    linkedin_url: "https://www.linkedin.com/in/mattrharrison/",
     name: "Matthew Harrison",
     title: "Technology",
     img: team05,
   },
   {
     id: "team-6",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+    twitter_url: "https://twitter.com/franklinisbored",
+    linkedin_url: "",
     name: "Franklin",
     title: "NFT Trader (61 Apes)",
     img: team06,
   },
   {
     id: "team-7",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+    twitter_url: "https://twitter.com/inkfinance",
+    linkedin_url: "",
     name: "Tony Tang",
     title: "DAO Infrastructure",
     img: team07,
@@ -112,12 +118,7 @@ export const stats = [
     id: "stats-2",
     title: "Licensing Experience",
     value: "50+ Years",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
+  }
 ];
 
 export const footerLinks = [

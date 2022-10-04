@@ -6,7 +6,6 @@ const Footer = () => {
       <hr></hr>
       <div className="py-10 flex justify-center items-center text-white">
       <p className="mr-10">© 2022 · BluBlock Inc.</p>
-      <p>BluBlock Inc. is a Delaware C Corp</p>
       </div>
     </div>
   )

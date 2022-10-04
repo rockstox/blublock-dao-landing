@@ -20,9 +20,11 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import map from "./map.svg";
+import how_it_works from "./how_it_works.png";
 import team01 from "./hunter-profile.png";
 import team02 from "./ash-profile.png";
-import team03 from "./delon-profile.jpeg";
+import team03 from "./delon-profile.png";
 import team04 from "./ken-profile.png";
 import team05 from "./matt-profile.webp";
 import team06 from "./franklin-ape.png";
@@ -52,6 +54,8 @@ export {
   instagram,
   linkedin,
   twitter,
+  map,
+  how_it_works,
   team01,
   team02,
   team03,
