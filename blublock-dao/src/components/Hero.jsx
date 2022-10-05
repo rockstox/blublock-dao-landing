@@ -24,7 +24,7 @@ const Hero = () => {
           in the palm of your hand
           </h1>
           <Button styles="block w-[180px] mx-auto sm:mx-0 mt-5 mb-10" />
-          <p className={`${styles.paragraph} text-sm sm:text-lg max-w-[570px] mt-5 mx-auto sm:mx-0`}>Using an innovative new multi-DAO configuration, BluBlock is offering its community the opportunity to buy into the royalties and perks generated from the world's top media IP.</p>
+          <p className={`${styles.paragraph} text-sm sm:text-lg max-w-[570px] mt-5 mx-auto sm:mx-0`}>Using an innovative multi-DAO configuration, BluBlock is offering its community the opportunity to buy into the royalties and perks generated from the world's top media IP.</p>
         </div>
       </div>
 
