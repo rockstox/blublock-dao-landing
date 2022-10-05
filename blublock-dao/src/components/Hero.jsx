@@ -11,7 +11,7 @@ const Hero = () => {
           <img src={arrowUp} alt="heads up" className="w-[24px] h-[24px]" />
           <p className="text-[14px] text-orange-200 ml-2">
           {" "}
-            <span className="text-white mr-1">BluBlock secures single largest NFT licensing deal involving 60 Bored Apes and a public company</span>
+            <span className="text-white mr-1">BluBlock secures single largest NFT licensing deal licensing a set of Bored Apes to a public company</span>
             {" "}Official Announcement Soon {" "}
           </p>
         </div>
