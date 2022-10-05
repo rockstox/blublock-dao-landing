@@ -26,7 +26,7 @@ import team01 from "./hunter-profile.png";
 import team02 from "./ash-profile.png";
 import team03 from "./delon-profile.png";
 import team04 from "./ken-profile.png";
-import team05 from "./matt-profile.webp";
+import team05 from "./matthew-profile.jpg";
 import team06 from "./franklin-ape.png";
 import team07 from "./tony-profile.png";
 import team08 from "./jeremiah-profile.jpeg";

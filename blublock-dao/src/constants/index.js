@@ -25,27 +25,27 @@ export const features = [
     icon: star,
     title: "A-List Intellectual Property",
     content:
-      "The best licensing managers in the biz bring deal flows from blue chip NFTs and legacy IP estates to the most relevant fan community in the world.",
+      "The best licensing teams in the world bring deal flow from blue chip NFTs and legacy IP estates and offer participation in their royalties.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Legal and Compliant",
     content:
-      "BluBlock adopts the most stringent mechanism in Web3 to make sure all transactions are done in the fully compliant fashion.",
+      "BluBlock adopts the most stringent mechanism in Web3 to ensure transactions are fully compliant and legal.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Tokenization & DeFi",
-    content: "IP deal flows are securitized, tokenized, and distributed to qualified participants, who can further tap the liquidity offered by the ubiquitous DeFi facilities.",
+    content: "Licensing deal flow is securitized, tokenized, and distributed to qualified participants, who can further tap the liquidity offered through DeFi facilities.",
   },
   {
     id: "feature-4",
     icon: map,
     title: "Well-defined Governance Economy",
     content:
-      "A transparent, fair, and sustainable DAO framework that drives a genuine governance economy encouraging contributions and collaborations.",
+      "A transparent, fair, and sustainable DAO framework that enables true governance and an economy built around contributions and collaborations.",
   },
 ];
 

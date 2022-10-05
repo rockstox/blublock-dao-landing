@@ -21,12 +21,11 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () =>  (
   <section id="overview" className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        You choose the IP, <br className="sm:block hidden" /> we’ll handle
-        the rest.
+      <h2 className="font-poppin text-white font-bold text-[42px]">
+        The best parts of web3, <br className="sm:block hidden" /> to unlock media licensing 2.0
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Fans, consumers, artists, and managers collaborate to unlock and share the vast commercial values generated from top media IPs.
+      <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+      BluBlock DAO offers an entirely new media licensing infrastructure that is structured as a metaDAO with a network of subDAOs which enables community participation in the management and monetization of beloved IP through a multi-token model. 
       </p>
 
       <Button styles={`mt-10`} />
