@@ -1,8 +1,7 @@
 import styles from './styles';
-
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Stats from './components/Stats';
+import Overview from './components/Overview';
 import Business from './components/Business';
 import Team from './components/Team';
 import Footer from './components/Footer';
@@ -18,15 +17,9 @@ function App() {
         </div>
       </div>
 
-      {/* Hero */}
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-
-        </div>
-      </div>
-
       <div className={`bg-primary ${styles.flexStart} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
+          <Overview />
           <Team />
           <Business />
           <Footer />  

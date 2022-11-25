@@ -22,6 +22,9 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import map from "./map.svg";
 import how_it_works from "./how_it_works.png";
+import bayc from "./bayc-logo.webp";
+import cryptoPunk from "./cryptoPunk_logo.png";
+import meeBits from "./meebits-logo.png";
 import team01 from "./hunter-profile.png";
 import team02 from "./ash-profile.png";
 import team03 from "./delon-profile.png";
@@ -34,6 +37,9 @@ import team08 from "./jeremiah-profile.jpeg";
 export {
   airbnb,
   bill,
+  bayc,
+  cryptoPunk,
+  meeBits,
   binance,
   card,
   coinbase,

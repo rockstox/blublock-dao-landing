@@ -154,14 +154,6 @@
   position: relative;
 }
 
-.robot-container img {
-  position: relative;
-  right: -25px;
-  width: 100%;
-  height: auto;
-
-}
-
 .content {
   padding-top: 10px;
   transform: translate3d(calc(50% + 40px), 0, 0);

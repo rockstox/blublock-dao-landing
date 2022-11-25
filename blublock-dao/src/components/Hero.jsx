@@ -1,36 +1,36 @@
-import styles from '../styles';
+import {useState} from 'react';
 import Button from './Button';
-import HeroAnimation from './HeroAnimation';
-import { star, arrowUp, robot } from '../assets';
+import { bayc, cryptoPunk, meeBits} from '../assets';
 
 const Hero = () => {
+    const [collection, setCollection] = useState(false);
+
+    function setCollectionName(collection_name) {
+        setCollection( (collection == collection_name) ? false : collection_name);
+    }
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:p-0 sm:px-16 px-6`}>
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-          <img src={arrowUp} alt="heads up" className="w-[24px] h-[24px]" />
-          <p className="text-[14px] text-orange-200 ml-2">
-          {" "}
-            <span className="text-white mr-1">BluBlock secures single largest NFT licensing deal</span>
-            {" "}Official Announcement Soon {" "}
-          </p>
+    <section id="home" className="my-[150px]">
+        <div className="w-full text-center my-5 font-poppins text-white">
+            <h1 className="font-poppins font-bold text-[34px] sm:text-[48px] lg:text-[68px] text-white">Make Your NFT License Ready</h1>
+            <h1 className="font-poppins font-semibold text-[32px] lg:text-[48px] text-white w-full mb-10">
+            Choose Your NFT's Collection and Get Started
+            </h1>
+            <div className="flex flex-row align-center justify-center my-10">
+                <div className={`border-solid cursor-pointer ${(collection == 'bayc') ? "border-green-400 bg-green-900" : "border-white"} border-2 rounded p-3 text-center flex flex-col align-center justify-center font-bold mx-5`} onClick={() => setCollectionName("bayc")}>
+                    <img className="block max-w-[150px] mb-2" src={`${bayc}`} />
+                    <p>BAYC</p>
+                </div>
+                <div className={`border-solid cursor-pointer ${(collection == 'cryptoPunks') ? "border-green-400 bg-green-900" : "border-white"} border-2 rounded p-3 text-center flex flex-col align-center justify-center font-bold mx-5`} onClick={() => setCollectionName("cryptoPunks")}>
+                    <img className="block max-w-[150px] mb-2" src={`${cryptoPunk}`} />
+                    <p>Crypto Punks</p>
+                </div>
+                <div className={`border-solid cursor-pointer ${(collection == 'meeBits') ? "border-green-400 bg-green-900" : "border-white"} border-2 rounded p-3 text-center flex flex-col align-center justify-center font-bold mx-5`} onClick={() => setCollectionName("meeBits")}>
+                    <img className="block max-w-[150px] mb-2" src={`${meeBits}`} />
+                    <p>Meebits</p>
+                </div>
+            </div>
+            <Button buttonText="Get Started" styles={`${collection ? 'bg-green-900 border-green-400 cursor-pointer':'border-stone-700 text-stone-700'}`} />
         </div>
-
-        <div className="w-full text-center sm:text-left my-5">
-          <h1 className="flex-1 font-poppins font-semibold text-[34px] sm:text-[48px] lg:text-[68px] text-white">
-            <span className="text-gradient">Your favorite IP</span> {" "}
-          </h1>
-          <h1 className="font-poppins font-semibold text-[32px] lg:text-[48px] text-white w-full mb-10">
-          in the palm of your hand
-          </h1>
-          <Button styles="block w-[180px] mx-auto sm:mx-0 mt-5 mb-10" />
-          <p className={`${styles.paragraph} text-sm sm:text-lg max-w-[570px] mt-5 mx-auto sm:mx-0`}>Using an innovative multi-DAO configuration, BluBlock is offering its community the opportunity to buy into the royalties and perks generated from the world's top media IP.</p>
-        </div>
-      </div>
-
-      <div className="relative">
-        <HeroAnimation />
-      </div>
     </section>
   )
 }

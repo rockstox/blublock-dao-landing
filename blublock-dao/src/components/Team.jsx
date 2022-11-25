@@ -1,7 +1,6 @@
 import { team } from "../constants";
 import styles from "../styles";
 import TeamCard from "./TeamCard";
-import Stats from "./Stats";
 
 const Team = () => (
   <section id="team" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>

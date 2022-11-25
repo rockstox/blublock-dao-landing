@@ -1,4 +1,4 @@
-import { team01, team02, team03, team04, team05, team06, team07, team08, map, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, menu  } from "../assets";
+import { team01, team02, team03, team04, team05, team06, team07, team08, map, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, menu, arrowUp  } from "../assets";
 
 export const navLinks = [
   {
@@ -228,3 +228,33 @@ export const clients = [
     logo: dropbox,
   },
 ]; 
+
+export const valueProps = [
+  {
+    id: "vp-1",
+    tagline: "World Class Licensing Team",
+    icon: star,
+    subpoints: [
+      "lorem ipsum",
+      "lorem ipsum"
+    ]
+  },
+  {
+    id: "vp-2",
+      tagline: "Crypto Native Licensing",
+      icon: shield,
+      subpoints: [
+        "lorem ipsum",
+        "lorem ipsum"
+      ]
+  },
+  {
+      id: "vp-3",
+      tagline: "Fractionalize Royalties & Equity",
+      icon: star,
+      subpoints: [
+        "lorem ipsum",
+        "lorem ipsum"
+      ]
+  }
+]
