@@ -29,7 +29,7 @@ const Hero = () => {
                     <p>Meebits</p>
                 </div>
             </div>
-            <Button buttonText="Get Started" styles={`${collection ? 'bg-green-900 border-green-400 cursor-pointer':'border-stone-700 text-stone-700'}`} />
+            <Button buttonText="Get Started" styles={`${collection ? 'bg-green-500 border-green-400 cursor-pointer':'border-stone-700 text-stone-700'}`} />
         </div>
     </section>
   )

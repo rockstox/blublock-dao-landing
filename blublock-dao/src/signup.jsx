@@ -1,4 +1,4 @@
-import { logo, star, shield, arrowUp } from "./assets";
+import { logoDark, star, shield, arrowUp } from "./assets";
 import ValueProps from "./components/signup/ValueProps";
 import NFTLookup from "./components/signup/NFTLookup";
 import NFTConfirmation from "./components/signup/NFTConfirmation";
@@ -53,7 +53,7 @@ function Signup() {
       <div className="bg-stone-100 w-full min-h-[100vh] overflow-hidden font-poppins">
         <div className="flex flex-col p-10">
             <header className="mx-auto max-w-[190px] p-5 rounded mb-10">
-                <img className="max-w-[150px] mx-auto" src={logo} />
+                <img className="max-w-[150px] mx-auto" src={logoDark} />
             </header>
             <div className="flex flex-row align-center h-[100%] justify-center align-center">
                 <ValueProps />

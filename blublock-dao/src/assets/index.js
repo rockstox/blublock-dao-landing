@@ -5,6 +5,7 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./bb-logo.svg";
+import logoDark from "./bb-logo-dark.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot-arm.png";
 import send from "./Send.svg";
@@ -25,6 +26,7 @@ import how_it_works from "./how_it_works.png";
 import bayc from "./bayc-logo.webp";
 import cryptoPunk from "./cryptoPunk_logo.png";
 import meeBits from "./meebits-logo.png";
+import loader from "./loader.svg";
 import team01 from "./hunter-profile.png";
 import team02 from "./ash-profile.png";
 import team03 from "./delon-profile.png";
@@ -45,6 +47,8 @@ export {
   coinbase,
   dropbox,
   logo,
+  logoDark,
+  loader,
   quotes,
   robot,
   send,

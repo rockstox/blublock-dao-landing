@@ -235,17 +235,17 @@ export const valueProps = [
     tagline: "World Class Licensing Team",
     icon: star,
     subpoints: [
-      "lorem ipsum",
-      "lorem ipsum"
+      "The best licensing teams in the world bring deal flow",
+      "$1B+ in collective licensing deal flow"
     ]
   },
   {
     id: "vp-2",
       tagline: "Crypto Native Licensing",
-      icon: shield,
+      icon: star,
       subpoints: [
-        "lorem ipsum",
-        "lorem ipsum"
+        "Deal provenance is onchain and interoperable",
+        "Royalties paid out in USDC"
       ]
   },
   {
@@ -253,8 +253,8 @@ export const valueProps = [
       tagline: "Fractionalize Royalties & Equity",
       icon: star,
       subpoints: [
-        "lorem ipsum",
-        "lorem ipsum"
+        "Create immediate liquidity via fractionalization",
+        "Subsequent DeFi trading income"
       ]
   }
 ]
