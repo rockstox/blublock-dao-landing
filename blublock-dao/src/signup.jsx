@@ -11,7 +11,9 @@ function Signup() {
     const [formData, updateForm] = useState({
         step: 1,
         email: '',
-        NFTId: ''
+        NFTId: '',
+        license_history: '',
+        isLoading: false
     });
 
     const nextStep = () => {
@@ -50,7 +52,7 @@ function Signup() {
     return (
       <div className="bg-stone-100 w-full min-h-[100vh] overflow-hidden font-poppins">
         <div className="flex flex-col p-10">
-            <header className="mx-auto max-w-[190px] bg-blue-900 p-5 rounded mb-10">
+            <header className="mx-auto max-w-[190px] p-5 rounded mb-10">
                 <img className="max-w-[150px] mx-auto" src={logo} />
             </header>
             <div className="flex flex-row align-center h-[100%] justify-center align-center">
@@ -59,7 +61,7 @@ function Signup() {
                 <CurrentPane />
                 </div>
             </div>
-            <footer className=""><span>© 2022 BluBlock Inc. All rights reserved.</span><a href="https://www.assemblyai.com/terms" target="_blank" rel="noreferrer">Terms of Service</a><a href="https://www.assemblyai.com/privacy-policy" target="_blank" rel="noreferrer">Privacy Policy</a></footer>
+            <footer className="mt-10 text-sm font-stone-600 text-center"><span>© 2022 BluBlock Inc. All rights reserved.</span><a href="https://www.assemblyai.com/terms" target="_blank" rel="noreferrer">Terms of Service</a><a href="https://www.assemblyai.com/privacy-policy" target="_blank" rel="noreferrer">Privacy Policy</a></footer>
         </div>
       </div>
     )
