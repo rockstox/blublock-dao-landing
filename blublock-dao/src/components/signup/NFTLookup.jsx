@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './Button';
 
 const NFTLookup = () => {
   return (
@@ -29,7 +28,6 @@ const NFTLookup = () => {
                 <input type="text" className="mt-1 block w-full border-stone-300 rounded" placeholder="1234" />
             </label>
             <hr></hr>
-            <Button />
         </div>
     </div>
   )
