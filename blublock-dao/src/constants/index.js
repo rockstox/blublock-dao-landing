@@ -257,4 +257,38 @@ export const valueProps = [
         "Subsequent DeFi trading income"
       ]
   }
-]
+];
+
+export const membershipBenefits = [
+  {
+    id: "b-1",
+    text: "Prepare up to 5 NFT assets to be 'license ready'"
+  },
+  {
+    id: "b-2",
+    text: "World class licensing team to source and negotiate on your NFT's behalf"
+  },
+  {
+    id: "b-3",
+    text: "Crypto native licensing royalty payments"
+  },
+  {
+    id: "b-4",
+    text: "5% of all licensing deal flow split amongst members"
+  }
+];
+
+export const membershipRequirements = [
+  {
+    id: "r1",
+    text: "Own a blue chip NFT (BAYC, CryptoPunk, Meebit, Doodles, Azuki)"
+  },
+  {
+    id: "r2",
+    text: "0.5 eth annual membership fee"
+  },
+  {
+    id: "r3",
+    text: "Active community participation"
+  }
+];
