@@ -5,8 +5,9 @@ import Membership from './components/Membership';
 import Phase01 from './components/Phase01';
 import Phase02 from './components/Phase02';
 import Phase03 from './components/Phase03';
-import Business from './components/Business';
-import Team from './components/Team';
+// import Business from './components/Business';
+// import Team from './components/Team';
+import Faq from './components/Faq';
 import Footer from './components/Footer';
 
 function App() {
@@ -21,8 +22,7 @@ function App() {
           <Phase01 />
           <Phase02 />
           <Phase03 />
-          <Team />
-          <Business />
+          <Faq />
           <Footer />  
         </div>
       </div>

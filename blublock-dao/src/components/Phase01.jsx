@@ -13,9 +13,8 @@ const Phase01 = () => {
             <h1 className="flex-1 font-poppins font-semibold text-2xl lg:text-4xl text-white mb-8">
               A Community of Media Pioneers
             </h1>
-            <h6 className="text-lg text-stone-200 font-light my-4">First 500 members will share in the profits of BluBlock's largest licensing deal between Franklinisbored + Public company</h6>
-            <h6 className="text-lg text-stone-200 font-light my-4">Members will earn additional tokens through community participation</h6>
-            <h6 className="text-lg text-stone-200 font-light my-4">World Class licensing team will source and negotiate licensing deals on behalf of member blue-chip NFTs</h6>
+            <h6 className="text-lg text-stone-200 font-light my-4">Members will receive tokens based on NFT asset contribution and/or participation that entitle them to 5% of BluBlock's largest licensing deal between Franklinisbored + Public company</h6>
+            <h6 className="text-lg text-stone-200 font-light my-4">Our world class licensing team will source and negotiate licensing deals on behalf of member blue-chip NFTs, generating ongoing revenue for both the holder and the BluBlock community tokens.</h6>
           </div>
         </div>
 

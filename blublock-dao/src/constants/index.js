@@ -262,26 +262,26 @@ export const valueProps = [
 export const membershipBenefits = [
   {
     id: "b-1",
-    text: "Prepare up to 5 NFT assets to be 'license ready'"
+    text: "World class licensing team to source and negotiate deals on you NFT's behalf"
   },
   {
     id: "b-2",
-    text: "World class licensing team to source and negotiate on your NFT's behalf"
+    text: "Members co-own BluBlock Inc., and share in 5% of the total licensing revenue that we generate on behalf of member NFTs"
   },
   {
     id: "b-3",
-    text: "Crypto native licensing royalty payments"
+    text: "Proprietary technology that enables up to five of your NFTs to be 'license ready'"
   },
   {
     id: "b-4",
-    text: "5% of all licensing deal flow split amongst members"
+    text: "Licensing royalties paid crypto natively"
   }
 ];
 
 export const membershipRequirements = [
   {
     id: "r1",
-    text: "Own a blue chip NFT (BAYC, CryptoPunk, Meebit, Doodles, Azuki)"
+    text: "Own a blue chip NFT"
   },
   {
     id: "r2",
@@ -292,3 +292,26 @@ export const membershipRequirements = [
     text: "Active community participation"
   }
 ];
+
+export const faq = [
+  {
+    id: 1,
+    q: "Do NFT Holders have approval over licensing deal sourced on their behalf?",
+    a: "Yes. Deals require your final signature and thus approval"
+  },
+  {
+    id: 2,
+    q: "What is BluBlock's Commission",
+    a: "BluBlock takes a 20% commission on all deals that are sourced and negotiated by us : 10% - BluBlock, Inc. Team // 5% - Legal Counsel // 5% - BluBlock Co-Op Community"  
+  },
+  {
+    id: 3,
+    q: "What is the technology that BluBlock is building for licensing?",
+    a: "We are building a new type of DAO infrastructure meant to house and communitize media IP."  
+  },
+  {
+    id: 4,
+    q: "How many members can be in the BluBlock Co-Op?",
+    a: "5000 members"  
+  }
+]
