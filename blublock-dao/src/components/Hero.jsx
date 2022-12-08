@@ -16,9 +16,9 @@ const Hero = () => {
             {" "}Announcement Soon {" "}
             </p>
         </div>
-        <div className="w-full text-center my-5 font-poppins text-white mx-auto max-w-[800px]">
-            <h1 className="font-poppins font-bold leading-10 text-2xl sm:text-4xl lg:text-6xl mb-4 text-white">A Members Only NFT Licensing Club</h1>
-            <h1 className="font-poppins font-normal text-lg sm:text-xl text-white w-full mb-10">
+        <div className="w-full text-center my-5 text-white mx-auto max-w-[800px]">
+            <h1 className="font-bold sm:leading-loose text-2xl sm:text-4xl lg:text-6xl mb-4 text-white">A Members Only NFT Licensing Club</h1>
+            <h1 className="font-normal text-lg sm:text-xl text-white w-full mb-10">
             We are a team of experts in media, technology, finance, and law that provide blue chip NFT holders with licensing opportunities and income</h1>
             <Button buttonText="Apply Now" />
         </div>

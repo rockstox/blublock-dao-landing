@@ -5,7 +5,7 @@ import { arrowUp} from '../assets';
 
 const Phase02 = () => {
   return (
-    <section id="overview" className={`${styles.paddingY} mb-10 border-solid border-stone-700 border-2 rounded-[16px] p-10`}>
+    <section id="overview" className={`${styles.paddingY} mb-10 border-solid border-stone-800 border-2 rounded-[16px] p-10`}>
       <div className="flex md:flex-row flex-col">
         <div className={`flex-1 ${styles.flexStart} flex-col xl:p-0 sm:px-16 px-6`}>
             <div className="text-center md:text-left my-5 pr-4">
