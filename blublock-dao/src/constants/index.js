@@ -262,34 +262,30 @@ export const valueProps = [
 export const membershipBenefits = [
   {
     id: "b-1",
-    text: "World class licensing team to source and negotiate deals on you NFT's behalf"
+    text: "Members share in up to 5% of the total licensing revenue that we generate on behalf of member NFTs. As we do more deals, you make more money."
   },
   {
     id: "b-2",
-    text: "Members co-own BluBlock Inc., and share in 5% of the total licensing revenue that we generate on behalf of member NFTs"
+    text: "World class team to source licensing and sponsorship opportunities on behalf of your blue chip NFTs"
   },
   {
     id: "b-3",
-    text: "Proprietary technology that enables up to five of your NFTs to be 'license ready'"
-  },
-  {
-    id: "b-4",
-    text: "Licensing royalties paid crypto natively"
+    text: "Proprietary technology that enables NFT licensing and royalties paid crypto natively"
   }
 ];
 
 export const membershipRequirements = [
   {
     id: "r1",
-    text: "Own a blue chip NFT"
+    text: "1,000 members"
   },
   {
     id: "r2",
-    text: "0.5 eth annual membership fee"
+    text: "$100 USDT Annual Fee"
   },
   {
     id: "r3",
-    text: "Active community participation"
+    text: "Own bluechip NFT"
   }
 ];
 

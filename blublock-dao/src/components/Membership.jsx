@@ -5,7 +5,7 @@ const Membership = () => {
   return (
     <div className="text-white text-center pb-[150px]">
         <h1 className="text-5xl text-bold">Membership Details</h1>
-        <p className="text-md font-light mx-auto leading-7 mt-8 mb-10 max-w-[800px]">BluBlock is a members-only club for NFT enthusiasts who own blue-chip NFTs with commercial licensing rights. We are currently accepting applications from Bored Ape, CryptoPunk, and Meebit holders. As a co-op, we are looking for active participants who are committed to bringing licensing income to NFTs, just as commercial artists do with traditional assets. Members who contribute sought-after NFTs or actively participate in the community will earn more tokens and have greater financial upside from the deals we generate. Membership is proved by a BluBlock NFT.</p>
+        <p className="text-md font-light mx-auto leading-7 mt-8 mb-10 max-w-[800px]">BluBlock is a members-only club for NFT enthusiasts who own blue chips NFTs with commercial licensing rights. We are currently only accepting applications from Bored Ape, CryptoPunk, and Meebit holders. As a co-op, we seek active participants to bring licensing income to NFTs. Members who contribute sought-after NFTs or participate in the community earn more tokens and greater financial upside in collective deals. Membership is proved by a BluBlock NFT.</p>
         <div className="flex flex-col text-center">
             <p className="font-semibold text-sm text-stone-200 mb-8">MEMBERSHIP BENEFITS</p>
             <div className="flex flex-row mx-auto gap-4 flex-wrap items-center justify-center">

@@ -5,11 +5,11 @@ import { community } from '../assets';
 
 const Phase01 = () => {
   return (
-    <section id="overview" className={`${styles.paddingY} mb-10 border-solid border-stone-800 border-2 rounded-[16px] p-10`}>
+    <section id="overview" className={`${styles.paddingY} mb-10 border-solid border-stone-800 border-2 rounded-[16px] p-10 relative`}>
       <div className="flex md:flex-row flex-col">
-        <div className={`flex-1 ${styles.flexStart} flex-col xl:p-0 sm:px-16 px-6`}>
-          <div className="text-center md:text-left my-5 pr-4">
-            <p className="text-lg font-light text-stone-500 mb-8">Phase 01 - Community</p>
+        <div className={`flex-1 ${styles.flexStart} flex-col`}>
+          <p style={{ textShadow:'rgb(159 159 159 / 40%) 15px 10px 50px' }} className="text-6xl w-full my-10 font-black text-center md:text-left text-stone-900">PHASE 01</p>  
+          <div className="text-center md:text-left my-5 pr-4 relative">
             <h1 className="flex-1 font-poppins font-semibold text-2xl lg:text-4xl text-white mb-8">
               A Community of Media Pioneers
             </h1>
@@ -19,7 +19,7 @@ const Phase01 = () => {
         </div>
 
         <div className="relative md:basis-2/5">
-          <img src={community} />
+          <img className="rounded" src={community} />
         </div>
       </div>
       
