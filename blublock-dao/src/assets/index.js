@@ -29,7 +29,8 @@ import meeBits from "./meebits-logo.png";
 import heroImg from "./hero-img.jpg";
 import community from "./community.jpg";
 import loader from "./loader.svg";
-import traditional from "./traditional.jpg";
+import traditional from "./monroe.jpg";
+import contract from "./tech.jpg";
 import team01 from "./hunter-profile.png";
 import team02 from "./ash-profile.png";
 import team03 from "./delon-profile.png";
@@ -48,6 +49,7 @@ export {
   binance,
   card,
   coinbase,
+  contract,
   dropbox,
   logo,
   logoDark,
