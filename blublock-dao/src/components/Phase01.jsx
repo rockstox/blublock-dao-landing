@@ -13,9 +13,10 @@ const Phase01 = () => {
             <h1 className="flex-1 font-poppins font-semibold text-2xl lg:text-4xl text-white mb-8">
               A Community of Media Pioneers
             </h1>
-            <h6 className="text-lg text-stone-200 font-light my-4">Members will receive tokens based on NFT asset contribution and/or participation that entitle them to 5% of BluBlock’s largest licensing deal between Franklinisbored + Public company</h6>
-            <h6 className="text-lg text-stone-200 font-light my-4">Our world class licensing team will source and negotiate licensing deals on behalf of member blue-chip NFTs, generating ongoing revenue for both the holder and the BluBlock community tokens.</h6>
-            <h6 className="text-lg text-stone-200 font-light my-4">We will offer exclusive NFT sponsorship packages to our members negotiated by our team (Formula 1, PGA Tour, NY Fashion Week, US Open, Times Square)</h6>
+            <h6 className="text-lg text-stone-200 font-light my-4">Membership confirmations will be sent out beginning in February 2023.</h6>
+            <h6 className="text-lg text-stone-200 font-light my-4">Members will receive tokens entitling them to a share of the profits from BluBlock's historic NFT licensing deal between Franklinisbored + Public company.</h6>
+            <h6 className="text-lg text-stone-200 font-light my-4">Our team will source and negotiate NFT licensing deals.</h6>
+            <h6 className="text-lg text-stone-200 font-light my-4">We will offer exclusive NFT sponsorship packages to our members negotiated by our team (Formula 1, PGA Tour, NY Fashion Week, US Open, Times Square).</h6>
           </div>
         </div>
 

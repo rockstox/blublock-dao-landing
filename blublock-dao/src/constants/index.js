@@ -262,29 +262,25 @@ export const valueProps = [
 export const membershipBenefits = [
   {
     id: "b-1",
-    text: "Members share in up to 5% of the total licensing revenue that we generate on behalf of member NFTs. As we do more deals, you make more money."
+    text: "All members share in the total licensing revenue that we make on behalf of member NFTs. As we do more deals, everyone makes more money."
   },
   {
     id: "b-2",
-    text: "World class team to source licensing and sponsorship opportunities on behalf of your blue chip NFTs"
+    text: "World class team to source licensing and sponsorship deals for your blue chip NFTs"
   },
   {
     id: "b-3",
-    text: "Proprietary technology that enables NFT licensing and royalties paid crypto natively"
+    text: "Technology that enables puts licensing data onchain and enables crypto native royalties"
   }
 ];
 
 export const membershipRequirements = [
   {
     id: "r1",
-    text: "1,000 members"
+    text: "100 members"
   },
   {
     id: "r2",
-    text: "$100 USDT Annual Fee"
-  },
-  {
-    id: "r3",
     text: "Own bluechip NFT"
   }
 ];
