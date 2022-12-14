@@ -9,6 +9,7 @@ import {useState} from 'react';
 
 function Signup() {
 
+    const config = { publicKey: "pk_d1a2cf3ba736d4be8772" }
     const [formStep, updateStep] = useState(1);
 
     const [formData, updateForm] = useState({
@@ -66,6 +67,7 @@ function Signup() {
     }
 
     return (
+      <MemberstackProvider config={config}>
       <div className="bg-stone-100 w-full overflow-hidden font-poppins">
         <div className="flex flex-col min-h-screen justify-between p-10">
             <header className="mx-auto max-w-[190px] p-5 rounded mb-10">
@@ -83,6 +85,7 @@ function Signup() {
             <footer className="mt-10 text-sm font-stone-600 text-center"><span>© 2022 BluBlock Inc. All rights reserved.</span><a className="mx-2" href="https://www.assemblyai.com/terms" target="_blank" rel="noreferrer">Terms of Service</a><a mx-2 href="https://www.assemblyai.com/privacy-policy" target="_blank" rel="noreferrer">Privacy Policy</a></footer>
         </div>
       </div>
+      </MemberstackProvider>
     )
   }
   

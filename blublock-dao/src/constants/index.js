@@ -6,12 +6,8 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "team",
-    title: "Team",
-  },
-  {
-    id: "overview",
-    title: "Overview",
+    id: "membership",
+    title: "Membership",
   },
   {
     id: "email",
@@ -262,15 +258,15 @@ export const valueProps = [
 export const membershipBenefits = [
   {
     id: "b-1",
-    text: "All members share in the total licensing revenue that we make on behalf of member NFTs. As we do more deals, everyone makes more money."
+    text: "All members share in licensing revenue. As we do more deals, everyone makes more money"
   },
   {
     id: "b-2",
-    text: "World class team to source licensing and sponsorship deals for your blue chip NFTs"
+    text: "World class team to source licensing and sponsorship deals for your NFTs"
   },
   {
     id: "b-3",
-    text: "Technology that enables puts licensing data onchain and enables crypto native royalties"
+    text: "Technology that puts licensing data onchain and enables crypto native royalties"
   }
 ];
 
