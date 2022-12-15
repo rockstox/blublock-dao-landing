@@ -258,15 +258,15 @@ export const valueProps = [
 export const membershipBenefits = [
   {
     id: "b-1",
-    text: "All members share in licensing revenue. As we do more deals, everyone makes more money"
+    text: "Participate in the total licensing revenue that we make on behalf of member NFTs. As we do more deals, everyone makes more money"
   },
   {
     id: "b-2",
-    text: "World class team to source licensing and sponsorship deals for your NFTs"
+    text: "Experienced team to source licensing deals and sponsorship opportunities for your NFTs"
   },
   {
     id: "b-3",
-    text: "Technology that puts licensing data onchain and enables crypto native royalties"
+    text: "Technology that scales NFT licensing and puts data on chain"
   }
 ];
 

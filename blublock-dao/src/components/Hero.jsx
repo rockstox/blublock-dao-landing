@@ -7,7 +7,7 @@ const Hero = () => {
         backgroundImage: "url("+heroImg+")"
     }
   return (
-    <section id="home" style={heroStyling} className="py-[150px] bg-center bg-cover px-4">
+    <section id="home" style={heroStyling} className="pt-[150px] bg-center bg-cover px-4">
         <div className="flex flex-row items-center justify-center py-[6px] mx-auto max-w-[700px] px-4 bg-slate-900 rounded-[10px] mb-2">
             <img src={arrowUp} alt="heads up" className="w-[24px] h-[24px]" />
             <p className="text-[14px] text-orange-200 ml-2">

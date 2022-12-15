@@ -19,9 +19,9 @@ function App() {
       <div className={`bg-stone-900 pt-[150px] pb-10 ${styles.flexStart} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Membership />
-          <Phase01 />
+          {/* <Phase01 />
           <Phase02 />
-          <Phase03 />
+          <Phase03 /> */}
           <Faq />
           <Footer />  
         </div>
