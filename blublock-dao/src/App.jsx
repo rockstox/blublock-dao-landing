@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     // Navbar
-    <div className="bg-primary font-poppins w-full overflow-hidden">
+    <div className="bg-primary font-merriweather w-full overflow-hidden">
       <Navbar />
       <Hero />
       <div className={`bg-stone-900 pt-[150px] pb-10 ${styles.flexStart} ${styles.paddingX} ${styles.flexStart}`}>
