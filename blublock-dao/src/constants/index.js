@@ -1,10 +1,6 @@
-import { team01, team02, team03, team04, team05, team06, team07, team08, map, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, menu, arrowUp  } from "../assets";
+import { team01, team02, team03, team04, team05, team06, team07, team08, map, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, menu, arrowUp, team, data, community  } from "../assets";
 
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
   {
     id: "membership",
     title: "Membership",
@@ -45,7 +41,7 @@ export const features = [
   },
 ];
 
-export const team = [
+export const TEAM = [
   {
     id: "team-1",
     name: "Hunter Davis",
@@ -258,14 +254,17 @@ export const valueProps = [
 export const membershipBenefits = [
   {
     id: "b-1",
+    img: community,
     text: "Participate in the total licensing revenue that we make on behalf of member NFTs. As we do more deals, everyone makes more money"
   },
   {
     id: "b-2",
+    img: team,
     text: "Experienced team to source licensing deals and sponsorship opportunities for your NFTs"
   },
   {
     id: "b-3",
+    img: data,
     text: "Technology that scales NFT licensing and puts data on chain"
   }
 ];

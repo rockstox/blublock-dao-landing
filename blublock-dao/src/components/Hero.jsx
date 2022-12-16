@@ -1,26 +1,31 @@
 import {useState} from 'react';
 import Button from './Button';
-import { heroImg, arrowUp } from '../assets';
+import { heroBg, cube } from '../assets';
 
 const Hero = () => {
     const heroStyling = {
-        backgroundImage: "url("+heroImg+")"
+        backgroundImage: "url("+heroBg+")"
     }
   return (
-    <section id="home" style={heroStyling} className="pt-[150px] bg-center bg-cover px-4">
-        <div className="flex flex-row items-center justify-center py-[6px] mx-auto max-w-[700px] px-4 bg-slate-900 rounded-[10px] mb-2">
-            <img src={arrowUp} alt="heads up" className="w-[24px] h-[24px]" />
-            <p className="text-[14px] text-orange-200 ml-2">
-            {" "}
-            <span className="text-white mr-1">BluBlock Inc. secures single largest NFT licensing deal ever done</span>
-            {" "}Announcement Soon {" "}
-            </p>
-        </div>
-        <div className="w-full text-center my-5 text-white mx-auto max-w-[800px]">
-            <h1 className="font-bold sm:leading-loose text-2xl sm:text-4xl lg:text-6xl mb-4 text-white">The NFT Licensing Club</h1>
-            <h1 className="font-normal text-lg sm:text-xl text-white w-full mb-10">
-            We secure licensing and sponsorship deals for bluechip NFTs and everyone gets a share of the revenue</h1>
-            <Button buttonText="Apply Now" />
+    <section id="home" style={heroStyling} className="py-10 md:py-[100px] bg-center bg-cover">
+        <div className="container px-8 mx-auto max-w-[1280px]">
+            <div className="flex flex-row items-center justify-center p-4 mx-auto text-center max-w-[700px] px-4 bg-primary rounded-full border-2 border-white mb-2">
+                <p className="text-sm font-lato text-stone-900">BluBlock secures largest NFT licensing deal of the year with 50+ BAYC assets and a public company</p>
+            </div>
+            <div className="flex md:flex-row flex-col items-center justify-center">
+                <div className="flex-col md:basis-1/2">
+                    <div className="text-center md:text-left my-5 md:pr-8 relative">
+                        <p className="text-lg font-merriweather animate-fadeInSecond font-semibold text-blue-900 mb-2">100 Members Only</p>
+                        <h1 className="font-merriweather animate-fadeInFirst font-bold tracking-wide text-stone-800 text-2xl sm:text-4xl lg:text-5xl mb-4">NFT Licensing Club</h1>
+                        <h4 className="text-md sm:text-lg font-lato font-normal my-4 mb-8">We secure licensing and sponsorship deals for bluechip NFTs and everyone gets a share of the revenue</h4>
+                        <Button buttonText="Apply Now" />
+                        <p className="text-xs font-lato font-light mx-auto md:mx-0 block mt-8 text-stone-500 max-w-[300px]">Membership confirmations will be sent out on a rolling basis starting in February 2023</p>
+                    </div>
+                </div>
+                <div className="relative md:basis-1/2 flex justify-center items-center">
+                    <img className="rounded block animate-fadeInThird max-w-full md:max-w-[415px] mx-auto" src={cube} />
+                </div>
+            </div>
         </div>
     </section>
   )

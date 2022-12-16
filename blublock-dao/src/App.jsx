@@ -16,7 +16,7 @@ function App() {
     <div className="bg-primary font-merriweather w-full overflow-hidden">
       <Navbar />
       <Hero />
-      <div className={`bg-stone-900 pt-[150px] pb-10 ${styles.flexStart} ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`pt-[150px] pb-10 ${styles.flexStart} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Membership />
           {/* <Phase01 />

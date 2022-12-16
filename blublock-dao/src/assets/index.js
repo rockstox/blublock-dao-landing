@@ -27,7 +27,6 @@ import bayc from "./bayc-logo.webp";
 import cryptoPunk from "./cryptoPunk_logo.png";
 import meeBits from "./meebits-logo.png";
 import heroImg from "./hero-img.jpg";
-import community from "./community.jpg";
 import loader from "./loader.svg";
 import traditional from "./monroe.jpg";
 import contract from "./tech.jpg";
@@ -40,10 +39,23 @@ import team06 from "./franklin-ape.png";
 import team07 from "./tony-profile.png";
 import team08 from "./jeremiah-profile.jpeg";
 
+import logoH from "./logo-h.jpg";
+import community from "./community.png";
+import team from "./team.png";
+import data from "./data.png";
+import heroBg from "./hero-bg.jpg";
+import cube from "./cube.png";
+
 export {
   airbnb,
   bill,
   bayc,
+  logoH,
+  community,
+  team, 
+  data, 
+  heroBg,
+  cube,
   cryptoPunk,
   meeBits,
   binance,
@@ -72,7 +84,6 @@ export {
   map,
   how_it_works,
   heroImg,
-  community,
   traditional,
   team01,
   team02,
