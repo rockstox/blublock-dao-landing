@@ -10,7 +10,7 @@ const Membership = () => {
             <p className="font-merriweather font-semibold text-sm text-stone-800 mb-8">BENEFITS</p>
             <div className="flex flex-row mx-auto gap-6 flex-wrap items-center justify-center">
                 {membershipBenefits.map((benefit) => (
-                    <div className="w-[275px] flex flex-col rounded justify-center items-center border-stone-200 border-2 hover:border-blue-500 hover:border-2">
+                    <div className="w-[275px] self-stretch flex flex-col rounded justify-center items-center border-stone-200 border-2 hover:border-blue-500 hover:border-2">
                         <img className="max-w-full" src={benefit.img} />
                         <p key={benefit.id} className="text-md font-lato font-light text-stone-800 p-6">{benefit.text}</p>
                     </div>
