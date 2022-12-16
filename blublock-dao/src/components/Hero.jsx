@@ -15,9 +15,9 @@ const Hero = () => {
             <div className="flex md:flex-row flex-col items-center justify-center">
                 <div className="flex-col md:basis-1/2">
                     <div className="text-center md:text-left my-5 md:pr-8 relative">
-                        <p className="text-lg font-merriweather animate-fadeInSecond font-semibold text-blue-900 mb-2">100 Members Only</p>
+                        <p className="text-lg font-merriweather animate-fadeInSecond font-semibold text-blue-900 mb-2">100 Members</p>
                         <h1 className="font-merriweather animate-fadeInFirst font-bold tracking-wide text-stone-800 text-2xl sm:text-4xl lg:text-5xl mb-4">NFT Licensing Club</h1>
-                        <h4 className="text-md sm:text-lg font-lato font-normal my-4 mb-8">We secure licensing and sponsorship deals for bluechip NFTs and everyone gets a share of the revenue</h4>
+                        <h4 className="text-md sm:text-lg font-lato font-normal my-4 mb-8">We secure licensing and sponsorship deals for NFTs and everyone gets a share of the revenue</h4>
                         <Button buttonText="Apply Now" />
                         <p className="text-xs font-lato font-light mx-auto md:mx-0 block mt-8 text-stone-500 max-w-[300px]">Membership confirmations will be sent out on a rolling basis starting in February 2023</p>
                     </div>
