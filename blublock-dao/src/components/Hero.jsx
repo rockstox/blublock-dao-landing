@@ -1,11 +1,13 @@
 import {useState} from 'react';
 import Button from './Button';
 import { heroBg, cube } from '../assets';
+import { IKImage } from 'imagekitio-react';
 
 const Hero = () => {
     const heroStyling = {
         backgroundImage: "url("+heroBg+")"
     }
+    const IKEndpoint = 'https://ik.imagekit.io/blublock/';
   return (
     <section id="home" style={heroStyling} className="py-10 md:py-[100px] bg-center bg-cover">
         <div className="container px-8 mx-auto max-w-[1280px]">
@@ -25,7 +27,12 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="relative md:w-[40%] flex justify-center items-center">
-                    <img className="rounded block animate-fadeInThird max-w-full md:max-w-[415px] mx-auto" src={cube} />
+                    <IKImage
+                        urlEndpoint={IKEndpoint} 
+                        path="cube.png"
+                        lqip={{ active:true }}
+                        className="rounded block animate-fadeInThird max-w-full md:max-w-[415px] mx-auto"
+                    />
                 </div>
             </div>
         </div>
