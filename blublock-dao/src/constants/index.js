@@ -1,4 +1,4 @@
-import { team01, team02, team03, team04, team05, team06, team07, team08, map, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, menu, arrowUp, team, data, community  } from "../assets";
+import { team01, team02, team03, team04, team05, team06, team07, team08, onchain, map, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, menu, arrowUp, team, data, community  } from "../assets";
 
 export const navLinks = [
   {
