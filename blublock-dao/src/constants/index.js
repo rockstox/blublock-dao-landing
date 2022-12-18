@@ -264,7 +264,7 @@ export const membershipBenefits = [
   },
   {
     id: "b-3",
-    img: data,
+    img: onchain,
     text: "Technology that scales NFT licensing and puts data on chain"
   }
 ];

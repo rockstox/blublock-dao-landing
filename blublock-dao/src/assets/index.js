@@ -45,6 +45,7 @@ import team from "./team.png";
 import data from "./data.png";
 import heroBg from "./hero-bg.jpg";
 import cube from "./cube.png";
+import onchain from "./onchain.png";
 
 export {
   airbnb,
@@ -53,6 +54,7 @@ export {
   logoH,
   community,
   team, 
+  onchain,
   data, 
   heroBg,
   cube,
