@@ -1,16 +1,16 @@
 import React from "react";
-import {faq} from "../constants";
+import { faq } from "../constants";
 
 export default function Faq() {
     return (
-        <div className="flex w-full items-center justify-center py-10">
+        <div id="faq" className="flex w-full items-center justify-center py-10">
             <div className="w-full">
                 <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-center">
                     <a href="https://blublock.notion.site/BluBlock-FAQ-76301091c4984f2cb72b79b7c4a946c8" target="_blank" className="text-4xl font-semibold underline">
                         Frequently Asked Questions →
                     </a>
                     <p className="mt-4 mb-8 text-stone-600">
-                        Contact us directly gm@blublock.xyz for anything more specific 
+                        Contact us directly gm@blublock.xyz for anything more specific
                     </p>
                     <div className="space-y-4 max-w-[600px] w-full mx-auto">
                         {/* {faq.map((block) => (
@@ -23,7 +23,7 @@ export default function Faq() {
                                 </p>
                             </details>
                         ))} */}
-                        
+
                     </div>
                 </div>
             </div>

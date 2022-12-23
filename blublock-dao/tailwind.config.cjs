@@ -21,9 +21,11 @@ module.exports = {
         }
       },
       animation: {
+        fadeInFast: 'fadeInSlide 0.3s 1',
         fadeInFirst: 'fadeInSlide 1.5s 1',
         fadeInSecond: 'fadeInSlide 2s 1',
-        fadeInThird: 'fadeInSlide 2.5s 1'
+        fadeInThird: 'fadeInSlide 2.5s 1',
+        fadeInFourth: 'fadeInSlide 3s 1',
       }
     },
     screens: {

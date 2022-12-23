@@ -39,13 +39,13 @@ import team06 from "./franklin-ape.png";
 import team07 from "./tony-profile.png";
 import team08 from "./jeremiah-profile.jpeg";
 
-import logoH from "./logo-h.jpg";
-import community from "./community.png";
-import team from "./team.png";
-import data from "./data.png";
+import logoH from "./blu-logo.png";
+import community from "./communal.jpg";
+import team from "./team.jpg";
+import data from "./onchain.jpg";
 import heroBg from "./hero-bg.jpg";
 import cube from "./cube.png";
-import onchain from "./onchain.png";
+import onchain from "./onchain.jpg";
 
 export {
   airbnb,

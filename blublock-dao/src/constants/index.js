@@ -6,8 +6,8 @@ export const navLinks = [
     title: "Membership",
   },
   {
-    id: "email",
-    title: "gm@blublock.xyz",
+    id: "faq",
+    title: "FAQ",
   },
 ];
 
@@ -255,16 +255,19 @@ export const membershipBenefits = [
   {
     id: "b-1",
     img: community,
-    text: "Participate in the total licensing revenue that we make on behalf of member NFTs. As we do more deals, everyone makes more money"
+    title: "Communal Success",
+    text: "A percent of all licensing dealflow is split amongst the members"
   },
   {
     id: "b-2",
     img: team,
-    text: "Experienced team to source licensing deals and sponsorship opportunities for your NFTs"
+    title: "Expertise",
+    text: "Expert team to source licensing deals and sponsorship opportunities"
   },
   {
     id: "b-3",
     img: onchain,
+    title: "Onchain Provenance",
     text: "Technology that scales NFT licensing and puts data on chain"
   }
 ];
