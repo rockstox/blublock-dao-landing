@@ -14,7 +14,7 @@ const Hero = () => {
         <section id="home" style={heroStyling} className="bg-center bg-cover">
             <Navbar />
             <div className="container px-8 mx-auto max-w-[1280px] py-8 md:py-[75px] md:pb-[150px]">
-                <a className="group flex flex-col items-center justify-center relative animate-fadeInFourth mb-8" href="" >
+                <a className="group flex flex-col items-center justify-center relative animate-fadeInFourth mb-8" href="https://blublock.notion.site/A-New-Licensing-Frontier-be6ad05ad5514c1caa15f9fccdaece74" target="_blank" >
                     <div className="flex flex-col items-center justify-center p-4 mx-auto text-center text-white mb-2 max-w-[700px] px-4 md:px-8 bg-sky-900 rounded-full border-2 border-white opacity-90 group-hover:opacity-100 group-hover:border-blue-300">
                         <p className="text-sm font-lato">BluBlock secures the year's largest NFT licensing deal with 50+ BAYC assets and a public company</p>
                     </div>
