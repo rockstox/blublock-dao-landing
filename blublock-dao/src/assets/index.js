@@ -39,7 +39,7 @@ import team06 from "./franklin-ape.png";
 import team07 from "./tony-profile.png";
 import team08 from "./jeremiah-profile.jpeg";
 
-import logoH from "./blu-logo.png";
+import logoH from "./logo-h.png";
 import community from "./communal.jpg";
 import team from "./team.jpg";
 import data from "./onchain.jpg";
