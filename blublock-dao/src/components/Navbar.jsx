@@ -11,7 +11,7 @@ const Navbar = () => {
       <img src={logoH} alt="BluBlock" className="w-[170px]"></img>
       <ul className="font-lato list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
-          <li key={nav.id} className="font-normal cursor-pointer text-[16px] pb-2 text-stone-900 mr-10 border-b-4 border-stone-300 hover:border-blue-700">
+          <li key={nav.id} className="font-normal cursor-pointer text-[16px] pb-2 text-stone-900 mr-10 border-b-4 border-stone-300 hover:border-sky-900">
             <a href={`#${nav.id}`}>
               {nav.title}
             </a>
@@ -29,7 +29,7 @@ const Navbar = () => {
           onClick={() => setToggle((prev) => !prev)}
         />
 
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-primary border-stone-200 border-2 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-primary z-10 border-stone-200 border-2 absolute top-20 right-0 mx-4 my-2 min-w-[180px] rounded-xl sidebar`}>
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
               <li key={nav.id} className={`font-normal cursor-pointer text-[16px] text-stone-900 mb-6`}>

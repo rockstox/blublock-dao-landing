@@ -15,7 +15,7 @@ const Hero = () => {
             <Navbar />
             <div className="container px-8 mx-auto max-w-[1280px] py-8 md:py-[75px] md:pb-[150px]">
                 <a className="group flex flex-col items-center justify-center relative animate-fadeInFourth mb-8" href="" >
-                    <div className="flex flex-col items-center justify-center p-4 mx-auto text-center text-white mb-2 max-w-[700px] px-4 md:px-8 bg-blue-800 rounded-full border-2 border-white opacity-90 group-hover:opacity-100 group-hover:border-blue-300">
+                    <div className="flex flex-col items-center justify-center p-4 mx-auto text-center text-white mb-2 max-w-[700px] px-4 md:px-8 bg-sky-900 rounded-full border-2 border-white opacity-90 group-hover:opacity-100 group-hover:border-blue-300">
                         <p className="text-sm font-lato">BluBlock secures the year's largest NFT licensing deal with 50+ BAYC assets and a public company</p>
                     </div>
                     <p className="absolute -bottom-5 animate-fadeInFast mx-auto block hidden group-hover:inline-block text-sm font-lato text-stone-900 underline"><span className="underline">Learn More    </span><span className="no-underline">→</span></p>
@@ -24,7 +24,7 @@ const Hero = () => {
                 <div className="flex md:flex-row flex-col items-center justify-center">
                     <div className="flex-col md:w-[60%]">
                         <div className="text-center md:text-left my-5 relative">
-                            <p className="text-xl font-merriweather animate-fadeInSecond font-semibold text-blue-900 mb-2">100 Members</p>
+                            <p className="text-xl font-merriweather animate-fadeInSecond font-semibold text-sky-900 mb-2">100 Members</p>
                             <h1 className="font-merriweather animate-fadeInFirst font-bold tracking-wide text-stone-800 text-2xl sm:text-5xl lg:text-6xl mb-4">NFT Licensing Club</h1>
                             <h4 className="text-md sm:text-xl font-lato animate-fadeInSecond font-normal max-w-[580px] my-4 mb-8">We secure licensing and sponsorship deals for NFTs and everyone gets a share of the revenue</h4>
                             <div className="flex items-center justify-center w-full md:items-start md:justify-start">

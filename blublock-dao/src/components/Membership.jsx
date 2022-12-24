@@ -4,7 +4,7 @@ import Button from './Button';
 const Membership = () => {
     return (
         <div id="membership" className="text-center mb-[150px]">
-            <h1 className="text-4xl text-bold mb-[50px]">Membership Details</h1>
+            <h1 className="text-3xl md:text-4xl text-bold mb-[50px]">Membership Details</h1>
             {/* <p className="text-md font-light mx-auto leading-7 mt-8 mb-10 max-w-[800px]">BluBlock is a members-only club for NFT enthusiasts who own blue chips NFTs with commercial licensing rights. We are currently only accepting applications from Bored Ape, CryptoPunk, and Meebit holders. As a co-op, we seek active participants to bring licensing income to NFTs. Members who contribute sought-after NFTs or participate in the community earn more tokens and greater financial upside in collective deals. Membership is proved by a BluBlock NFT.</p> */}
             <div className="flex flex-col text-center">
                 <div className="flex flex-row mx-auto gap-6 flex-wrap items-center justify-center">
@@ -16,9 +16,10 @@ const Membership = () => {
                         </div>
                     ))}
                 </div>
-                <div className="flex flex-col items-center justify-center mt-8">
+                <div className="flex flex-col items-center justify-center mt-10">
                     <p className="mb-4 text-xs">*Bluechip NFT required</p>
                     <Button buttonText="Apply Now" />
+                    <p className="text-sm font-lato font-light mx-auto md:mx-0 block mt-4 text-stone-600 max-w-[300px]">Membership confirmations will be sent out on a rolling basis starting in February 2023</p>
                 </div>
             </div>
         </div>
