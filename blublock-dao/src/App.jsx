@@ -20,9 +20,9 @@ function App() {
           <Phase02 />
           <Phase03 /> */}
           <Faq />
-          <Footer />
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -286,22 +286,22 @@ export const membershipRequirements = [
 export const faq = [
   {
     id: 1,
-    q: "Do NFT Holders have approval over licensing deal sourced on their behalf?",
-    a: "Yes. Deals require your final signature and thus approval"
+    q: "Will I have to transfer/move my NFTs or connect my wallet to the club after I join?",
+    a: "No. Traditional licensing does not require the transfer of assets or verification of assets (i.e connecting user wallets) that compromises the assets. At BluBlock, licensing deals will be effectuated by a combination of a traditional legal agreement and a smart contract."
   },
   {
     id: 2,
-    q: "What is BluBlock's Commission",
-    a: "BluBlock takes a 20% commission on all deals that are sourced and negotiated by us : 10% - BluBlock, Inc. Team // 5% - Legal Counsel // 5% - BluBlock Co-Op Community"  
+    q: "How much are membership dues?",
+    a: "Membership dues can be paid by USD, ETH, or USDT and will be paid annually. We will release our pricing model in February."  
   },
   {
     id: 3,
-    q: "What is the technology that BluBlock is building for licensing?",
-    a: "We are building a new type of DAO infrastructure meant to house and communitize media IP."  
+    q: "Do I need to KYC/AML myself to join the club?",
+    a: "In licensing deals, IP rights are often used for a long period of time, so the relationship between the licensee and licensor is more like a partnership than a simple transaction. To ensure compliance with anti-money laundering and know-your-customer regulations, larger corporations may require KYC/AML checks. We have partnered with KYC/AML service providers that prioritize privacy, and personal information will only be disclosed if necessary for the deal to proceed. You have the option to not disclose your information to an interested party."  
   },
   {
     id: 4,
-    q: "How many members can be in the BluBlock Co-Op?",
-    a: "5000 members"  
+    q: "Do NFT Holders have approval over licensing deal sourced on their behalf?",
+    a: "Yes. Deals require your final signature and thus approval."  
   }
 ]
