@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <div className={`pt-[150px] pb-10 ${styles.flexStart} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Billboard />
+          {/* <Billboard /> */}
           <Membership />
           {/* <Phase01 />
           <Phase02 />

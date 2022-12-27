@@ -4,8 +4,11 @@ import Button from './Button';
 const Membership = () => {
     return (
         <div id="membership" className="text-center mb-[100px]">
-            <h1 className="text-3xl md:text-4xl text-bold mb-[50px]">Membership Details</h1>
-            {/* <p className="text-md font-light mx-auto leading-7 mt-8 mb-10 max-w-[800px]">BluBlock is a members-only club for NFT enthusiasts who own blue chips NFTs with commercial licensing rights. We are currently only accepting applications from Bored Ape, CryptoPunk, and Meebit holders. As a co-op, we seek active participants to bring licensing income to NFTs. Members who contribute sought-after NFTs or participate in the community earn more tokens and greater financial upside in collective deals. Membership is proved by a BluBlock NFT.</p> */}
+            <h1 className="text-3xl md:text-4xl text-bold">Membership Details</h1>
+            <div className="my-10 mx-auto max-w-[700px]">
+                <h2 className="text-lg md:text-xl leading-loose text-stone-800 md:leading-loose">BluBlock is a private club for NFT holders that provide members with licensing deals, sponsorship opportunities, private events, and exclusive product drops —</h2>
+                <h2 className="text-lg md:text-xl leading-loose mt-8 md:leading-loose text-sky-900">And licensing profits are shared</h2>
+            </div>
             <div className="flex flex-col text-center">
                 <div className="flex flex-row mx-auto gap-6 flex-wrap items-center justify-center">
                     {membershipBenefits.map((benefit) => (
