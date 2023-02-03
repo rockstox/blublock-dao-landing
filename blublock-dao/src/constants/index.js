@@ -286,22 +286,22 @@ export const membershipRequirements = [
 export const faq = [
   {
     id: 1,
-    q: "Will I have to transfer/move my NFTs or connect my wallet to the club after I join?",
-    a: "No. Traditional licensing does not require the transfer of assets or verification of assets (i.e connecting user wallets) that compromises the assets. At BluBlock, licensing deals will be effectuated by a combination of a traditional legal agreement and a smart contract."
+    q: "Are there regional restrictions to membership?",
+    a: "No. Members can be residents from any non OFAC sanctioned nation."
   },
   {
     id: 2,
-    q: "How much are membership dues?",
-    a: "Membership dues can be paid by USD, ETH, or USDT and will be paid annually. We will release our pricing model in February."  
+    q: "Do members have to undergo KYC?",
+    a: "No. Members have to disclose similar information to that of a local rewards program, such as name, address, and date of birth."   
   },
   {
     id: 3,
-    q: "Do I need to KYC/AML myself to join the club?",
-    a: "In licensing deals, IP rights are often used for a long period of time, so the relationship between the licensee and licensor is more like a partnership than a simple transaction. To ensure compliance with anti-money laundering and know-your-customer regulations, larger corporations may require KYC/AML checks. We have partnered with KYC/AML service providers that prioritize privacy, and personal information will only be disclosed if necessary for the deal to proceed. You have the option to not disclose your information to an interested party."  
+    q: "How is membership not considered a security?",
+    a: "Members are owners and must actively participate in the NFT collection in order to maintain their ability to accruse profits. This is not exactly 'passive' income."  
   },
   {
     id: 4,
     q: "Do NFT Holders have approval over licensing deal sourced on their behalf?",
-    a: "Yes. Deals require your final signature and thus approval."  
+    a: "Yes, or No. Collection can customize how NFTs ingest commercial IP rights."  
   }
 ]

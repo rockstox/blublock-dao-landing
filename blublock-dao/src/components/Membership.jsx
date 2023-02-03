@@ -4,10 +4,10 @@ import Button from './Button';
 const Membership = () => {
     return (
         <div id="membership" className="text-center mb-[100px]">
-            <h1 className="text-3xl md:text-4xl text-bold">Membership Details</h1>
+            <h1 className="text-3xl md:text-4xl text-bold">Product Details</h1>
             <div className="my-10 mx-auto max-w-[700px]">
-                <h2 className="text-lg md:text-xl leading-loose text-stone-800 md:leading-loose">BluBlock is a private club for NFT holders that provide members with licensing deals, sponsorship opportunities, private events, and exclusive product drops —</h2>
-                <h2 className="text-lg md:text-xl leading-loose mt-8 md:leading-loose text-sky-900">And licensing profits are shared</h2>
+                <h2 className="text-lg md:text-xl leading-loose text-stone-800 md:leading-loose">BluBlock is offering the first ever legally compliant infrastructure to decentralize equity and profit sharing ownership in an NFT collection to its holders. With BluBlock, an NFT can now represent more than just a tradeable asset, it can entitle its holders to recurring income.</h2>
+                <h2 className="text-lg md:text-xl leading-loose mt-8 md:leading-loose text-sky-900">And no it's not a security.</h2>
             </div>
             <div className="flex flex-col text-center">
                 <div className="flex flex-row mx-auto gap-6 flex-wrap items-center justify-center">
@@ -30,3 +30,5 @@ const Membership = () => {
 }
 
 export default Membership
+
+
