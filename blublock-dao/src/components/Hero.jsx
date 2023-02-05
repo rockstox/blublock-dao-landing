@@ -25,7 +25,7 @@ const Hero = () => {
                     <div className="flex-col md:w-[60%]">
                         <div className="text-center md:text-left my-5 relative">
                             <p className="text-xl font-merriweather animate-fadeInSecond font-semibold text-sky-900 mb-2">Private Beta Opening Soon</p>
-                            <h1 className="font-merriweather animate-fadeInFirst font-bold tracking-wide text-stone-800 text-2xl sm:text-5xl lg:text-6xl mb-4">NFT utiltiy is here</h1>
+                            <h1 className="font-merriweather animate-fadeInFirst font-bold tracking-wide text-stone-800 text-2xl sm:text-5xl lg:text-6xl mb-4">NFT utility is here</h1>
                             <h4 className="text-md sm:text-xl font-lato animate-fadeInSecond font-normal max-w-[580px] my-4 mb-8">BluBlock provides NFT collections a legally compliant ownership framework to enable its holders to share in licensing royalties, equity, and more.</h4>
                             <div className="flex items-center justify-center w-full md:items-start md:justify-start">
                                 <Button buttonText="Apply Now" />
